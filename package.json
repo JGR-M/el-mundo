@@ -1,0 +1,22 @@
+{
+  "name": "el-mundo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JGR-M/el-mundo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JGR-M/el-mundo/issues"
+  },
+  "homepage": "https://github.com/JGR-M/el-mundo#readme",
+  "dependencies": {
+    "@google/maps": "^0.5.5"
+  }
+}
