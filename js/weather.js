@@ -8,7 +8,8 @@ $(document).ready(function() {
 
             $.ajax({
 
-                url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial' + '&APPID=4ed06e5c3a62464b150f64d2de562fea',
+                // always remember to add 's' at the HTTPS
+                url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial' + '&APPID=4ed06e5c3a62464b150f64d2de562fea',
                 type: "GET",
                 dataType: "jsonp",
                 success: function(data){
