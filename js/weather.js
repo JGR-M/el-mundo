@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 
 function show(data){
-    return  "<h3>Current Weather for " + data.name + ", " + data.sys.country + "</h3>" +
+    return  "<h3>" + data.name + ", " + data.sys.country + "</h3>" +
             "<h4><strong>Weather</strong>: <img src='http://openweathermap.org/img/w/" + data.weather[0].icon + ".png'>" + data.weather[0].main + "</h4>" + 
             "<h4><strong>Temperature</strong>: "  + data.main.temp + "&deg;F</h4>";
             // "<h3><strong>Humidity</strong>: "  + data.main.humidity + "</h3>";

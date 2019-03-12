@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JGR-M/el-mundo#readme",
   "dependencies": {
-    "@google/maps": "^0.5.5"
+    "@google/maps": "^0.5.5",
+    "cesium": "^1.55.0"
   }
 }
