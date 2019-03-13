@@ -29,5 +29,6 @@ $(document).ready(function() {
 });
 
 function news(data){
-    return  "<h4><strong>Current News </strong> <br>" + data.status + ', ' +  data.business + "</h4>";
+    return  "<h4><strong>Current News </strong> <br>" + data.status + "</h4>" +
+    "<h4><strong> </strong> <br>" + data.name + "</h4>"
 };

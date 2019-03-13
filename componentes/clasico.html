@@ -13,7 +13,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-
+        <link rel="stylesheet" href="../css/clasico.css">
 </head>
 <body>
 
@@ -22,7 +22,7 @@
     <!-- weather api code  -->
     <div class="row">
 
-        <div class="col s3">
+        <div class="col m3">
             
             <div class="container">
                 <div class="row">
@@ -45,8 +45,13 @@
 
         </div>
       
-        <div class="col s9">
-          <!-- Teal page content  -->
+        <div class="col m9">
+        
+                <div id="map">
+
+                        <div style="overflow:hidden;width: 100%;position: relative;"><iframe width="1500" height="900" src="https://maps.google.com/maps?width=719&amp;height=100%&amp;hl=en&amp;q=(Title)&amp;ie=UTF8&amp;t=k&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/es/">Embedgooglemaps.com/es/</a> & <a href="https://brightononline.ca/">custommap poster.com</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+
+                </div>
         </div>
       
     </div>
@@ -66,6 +71,8 @@
 <script src="../js/weather.js"></script>
 
 <script src="../js/news.js"></script>
+
+<script src="../js/map.js"></script>
 
 </body>
 </html>
